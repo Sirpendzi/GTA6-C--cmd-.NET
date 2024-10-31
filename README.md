@@ -24,4 +24,4 @@ Poznámka: Hra Fuckstar™ Game je poskytována zdarma a k jejímu stažení neb
 <br></br>
 Děkujeme vám, že jste se rozhodli zkusit Fuckstar™ Game. Doufáme, že tento projekt nabídne fanouškům něco nového, zatímco si nadále budeme držet palce, aby Rockstar Games konečně doručil své dlouho očekávané dílo. Naše hra není GTA 6, ale možná vám přinese alespoň část toho, co by GTA 6 mohlo jednou být.
 
-S úctou, tým Fuckstar™
+<i>S úctou, tým Fuckstar™</i>
