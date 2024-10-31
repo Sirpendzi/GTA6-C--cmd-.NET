@@ -1,4 +1,20 @@
-﻿bool opakovani = true;
+Console.WriteLine("Chceš jít na PC nebo XBOX servery.");
+string server = Console.ReadLine(); 
+    if (server == "XBOX")
+    {
+        Console.WriteLine("Připojil jsi se na XBOX servery.");
+    }
+    else if (server == "PC")
+    {
+    Console.WriteLine("jdeš cheatovat ty hajzle že.");
+    }
+    else
+    {
+    Console.WriteLine("Na take servery nemame budget kamo");
+    Console.WriteLine("Tvůj progress se nebude ukládat (nevim jak ti to mam vypnout tak proto)");
+    }
+
+bool opakovani = true;
 
 while (opakovani == true)
 {
