@@ -74,7 +74,12 @@ while (opakovani == true)
     } else if (vyber == "D")
     {
         Console.WriteLine("Šel jsi doprava");
-    } else
+    }
+    else if (vyber == "04122007")
+    {
+            Console.WriteLine("Našel jsi secret a zabijíš Trevora");
+            Console.WriteLine("Victory Royale");
+        } else
     {
         Console.WriteLine("Trevor tě zabil");
         Console.ForegroundColor = ConsoleColor.DarkRed;
