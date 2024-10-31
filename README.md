@@ -1,2 +1,21 @@
-"Prosim nežalujte nas rockstar"
-My jsme fuckstars a programujeme hry už celý týden :)
+Úvod
+Vítejte v projektu Fuckstar™ Game – naší originální verzi GTA 6, která vznikla jako odpověď na nekonečné čekání na oficiální vydání této ikonické hry. Jsme malá nezisková společnost z České republiky, Fuckstar™, a naším cílem je přinést hráčům zážitek, který jinak leží v čekárně už dlouhých osm let.
+
+Disclaimer
+Fuckstar™ Game není v žádném případě oficiálně spojena se společností Rockstar Games ani jejich franšízou GTA. Veškeré podobnosti s původní hrou jsou čistě náhodné, a naším záměrem je nabídnout fanouškům svěží alternativu. Nechceme žádné právní komplikace s Rockstar Games a doufáme, že náš projekt bude vnímán jako pocta hernímu průmyslu, nikoli jako plagiát či kopie. Naše hra slouží výhradně pro nekomerční účely a je určena všem, kteří chtějí okusit GTA 6 – i když trochu jinak.
+
+O projektu Fuckstar™ Game
+Naše hra je inspirovaná konceptem otevřeného světa a nabízí nové možnosti a herní mechaniky, které originál dosud neodhalil. Jako nadšení fanoušci RPG, MMORPG a FPS her jsme se rozhodli vytvořit něco, co nám i vám může přinést radost a potěšení – a třeba se i trochu přiblížit k tomu, co od GTA 6 všichni očekáváme. Každý prvek, který ve hře najdete, byl navržen s péčí a ohledem na fanoušky originální série.
+
+Proč Fuckstar™ Game?
+Jednoduše řečeno, jsme zklamaní nekonečným čekáním. Rockstar pracuje na své hře již téměř celou dekádu, a přesto jsme zatím neviděli žádný pevný výsledek. Rozhodli jsme se tedy vzít osud do vlastních rukou a vytvořit projekt, který může fanouškům přinést to, co jim už léta chybí.
+
+Jak nás podpořit
+Fuckstar™ je nezisková organizace a veškeré prostředky investované do tohoto projektu jdou přímo na jeho další vývoj. Nepřijímáme žádné komerční příspěvky a nesnažíme se konkurovat Rockstaru. Pokud se vám projekt líbí a chcete nás podpořit, sdílejte naši práci s přáteli a podělte se o zpětnou vazbu.
+
+Poznámka: Hra Fuckstar™ Game je poskytována zdarma a k jejímu stažení nebo hraní nebudete potřebovat žádné finanční prostředky.
+
+Závěrem
+Děkujeme vám, že jste se rozhodli zkusit Fuckstar™ Game. Doufáme, že tento projekt nabídne fanouškům něco nového, zatímco si nadále budeme držet palce, aby Rockstar Games konečně doručil své dlouho očekávané dílo. Naše hra není GTA 6, ale možná vám přinese alespoň část toho, co by GTA 6 mohlo jednou být.
+
+S úctou, tým Fuckstar™
