@@ -1,4 +1,4 @@
-Úvod
+<strong>Úvod</strong>
 Vítejte v projektu Fuckstar™ Game – naší originální verzi GTA 6, která vznikla jako odpověď na nekonečné čekání na oficiální vydání této ikonické hry. Jsme malá nezisková společnost z České republiky, Fuckstar™, a naším cílem je přinést hráčům zážitek, který jinak leží v čekárně už dlouhých osm let.
 
 Disclaimer
