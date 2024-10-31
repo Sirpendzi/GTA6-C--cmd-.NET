@@ -1,0 +1,15 @@
+C:\Users\potisvojtech\source\repos\idk\idk\bin\Debug\net6.0\idk.exe
+C:\Users\potisvojtech\source\repos\idk\idk\bin\Debug\net6.0\idk.deps.json
+C:\Users\potisvojtech\source\repos\idk\idk\bin\Debug\net6.0\idk.runtimeconfig.json
+C:\Users\potisvojtech\source\repos\idk\idk\bin\Debug\net6.0\idk.dll
+C:\Users\potisvojtech\source\repos\idk\idk\bin\Debug\net6.0\idk.pdb
+C:\Users\potisvojtech\source\repos\idk\idk\obj\Debug\net6.0\idk.csproj.AssemblyReference.cache
+C:\Users\potisvojtech\source\repos\idk\idk\obj\Debug\net6.0\idk.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\potisvojtech\source\repos\idk\idk\obj\Debug\net6.0\idk.AssemblyInfoInputs.cache
+C:\Users\potisvojtech\source\repos\idk\idk\obj\Debug\net6.0\idk.AssemblyInfo.cs
+C:\Users\potisvojtech\source\repos\idk\idk\obj\Debug\net6.0\idk.csproj.CoreCompileInputs.cache
+C:\Users\potisvojtech\source\repos\idk\idk\obj\Debug\net6.0\idk.dll
+C:\Users\potisvojtech\source\repos\idk\idk\obj\Debug\net6.0\refint\idk.dll
+C:\Users\potisvojtech\source\repos\idk\idk\obj\Debug\net6.0\idk.pdb
+C:\Users\potisvojtech\source\repos\idk\idk\obj\Debug\net6.0\idk.genruntimeconfig.cache
+C:\Users\potisvojtech\source\repos\idk\idk\obj\Debug\net6.0\ref\idk.dll
