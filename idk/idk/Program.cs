@@ -23,8 +23,8 @@ while (opakovani == true)
     if (vyber == "W")
     {
         Random random = new Random();
-        int nahodnePolda = random.Next(0, 15);
-        if (nahodnePolda == 6)
+        int nahodnePolda = random.Next(0, 7);
+        if (nahodnePolda == 4)
         {
         Console.WriteLine("Našel si poldu, co uděláš? chceš ho zabít [A.N]");
         string vyberPolda = Console.ReadLine();
@@ -82,7 +82,44 @@ while (opakovani == true)
     }
     else if (vyber == "S")
     {
+        Random random = new Random();
+        int krokDozadu = random.Next(0, 40);
+        if (krokDozadu == 36)
+        {
+            Console.WriteLine("Narazil jsi do Lamara, který se tě ptá jestli nechceš udělat nějakou težkou práci. Jdeš do toho? [ANO / NE]");
+            string volbaCernoch = Console.ReadLine().ToLower();
+            switch (volbaCernoch)
+            {
+                case "ano":
+                    Console.WriteLine("Je rád, že nejsi děvka. Položil ti další otázku: Jakou prací si vybereš?");
+                    Console.WriteLine("Chop, Fleeca, Prison, Auta, Vagos");
+                    string volbaPracicky = Console.ReadLine().ToLower();
+                    switch (volbaPracicky)
+                    {
+                        case "chop":
+                            break;
+                        case "fleeca":
+                            break;
+                        case "prison":
+                            break;
+                        case "auta":
+                            break;
+                        case "vagos":
+                            break;
+                    }
+                    break;
+                case "ne":
+                    Console.WriteLine("Lamar se na tebe naštval a rozstřílel tě orbital kanonem");
+                    break;
+                default:
+                    Console.WriteLine("Jsi kokot?");
+                    break;
+            }
+        } 
+        else
+        {
         Console.WriteLine("Šel jsi dozadu");
+        }
     }
     else if (vyber == "D")
     {
