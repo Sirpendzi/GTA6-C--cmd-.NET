@@ -1,0 +1,26 @@
+if (vyber == "W")
+    {
+        Random random = new Random();
+        int nahodnePolda = random.Next(0, 7);
+        if (nahodnePolda == 4)
+        {
+        Console.WriteLine("Našel si poldu, co uděláš? chceš ho zabít [A.N]");
+        string vyberPolda = Console.ReadLine();
+        if (vyberPolda == "A")
+        {
+            Console.WriteLine("Zabil si poldu");
+        }
+        else if (vyberPolda == "N")
+        {
+            Console.WriteLine("Nezabil si poldu");
+        }
+        else
+        {
+            Console.WriteLine("Polda tě zatkl");
+            Console.ForegroundColor = ConsoleColor.Blue;
+        }
+    } else
+        {
+        Console.WriteLine("Šel jsi dopředu");
+        }
+    }
