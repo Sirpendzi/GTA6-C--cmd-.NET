@@ -1,0 +1,82 @@
+bool opakovani = false;
+
+
+Random random1 = new Random();
+int penize = random1.Next(5000, 40000);
+Console.WriteLine();
+Console.WriteLine("Vítej nováčku ve světě GTA, Máš na účtě " + penize + " dollaru");
+Console.WriteLine("Chceš si jít hned koupit zbran na zacatek? jít do obchodu se zbraněmi [ANO / NE]");
+string vyberZacatekZbrane = Console.ReadLine().ToLower();
+int cenaGlock = 3000;
+int cenaAr15 = 15000;
+if (vyberZacatekZbrane == "ano")
+{
+    Console.WriteLine("šel jsi do obchodu se zbraněmi");
+    Console.WriteLine();
+    Console.WriteLine("Nabídka");
+    Console.WriteLine("Glock 19 - 3000");
+    Console.WriteLine("AR15 - 15000");
+    Console.WriteLine("Chceš si něco koupit? [Glock, AR15]");
+    string vyberNabidkaZbrane = Console.ReadLine().ToLower();
+    if (vyberNabidkaZbrane == "glock")
+    {
+        Console.WriteLine();
+        Console.WriteLine("Opravdu to chceš koupit? [ANO / NE]");
+        string vyberGlock = Console.ReadLine().ToLower();
+        if (vyberGlock == "ano" && penize >= cenaGlock)
+        {
+            Console.WriteLine();
+            Console.WriteLine("Gratulace jsi tedka vlastnikem Glocku 19");
+            penize = penize - cenaGlock;
+            opakovani = true;
+            Console.WriteLine("Tvůj učetní zůstatek je ted " + penize + " dolaru");
+            Console.WriteLine();
+        }
+        else if (vyberGlock == "ano" && penize < cenaGlock)
+        {
+            Console.WriteLine();
+            Console.WriteLine("Nemáš peníze na zakoupení této zbraně");
+            Console.WriteLine();
+            opakovani = true;
+        }
+
+        else
+        {
+            Console.WriteLine();
+            Console.WriteLine("Odešel si z obchodu");
+            opakovani = true;
+        }
+    }
+    else if (vyberNabidkaZbrane == "ar15")
+    {
+        Console.WriteLine();
+        Console.WriteLine("Opravdu to chceš koupit? [ANO / NE]");
+        string vyberAR = Console.ReadLine().ToLower();
+        if (vyberAR == "ano" && penize >= cenaAr15)
+        {
+            Console.WriteLine();
+            Console.WriteLine("Gratulace jsi tedka vlastnikem AR15");
+            penize = penize - cenaAr15;
+            opakovani = true;
+            Console.WriteLine("Tvůj učetní zůstatek je ted " + penize + " dolaru");
+            Console.WriteLine();
+        }
+        else if (vyberAR == "ano" && penize < cenaAr15)
+        {
+            Console.WriteLine();
+            Console.WriteLine("Nemáš peníze na zakoupení této zbraně");
+            Console.WriteLine();
+            opakovani = true;
+        }
+        else
+        {
+            Console.WriteLine();
+            Console.WriteLine("Odešel si z obchodu");
+            opakovani = true;
+        }
+    }
+ // dodělat system když nechce jit do obchodu tak opakovani = true a nic se nestane
+
+
+
+
