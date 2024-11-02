@@ -94,7 +94,7 @@ if (vyberZacatekZbrane == "ano")
 
     while (opakovani == true)
     {
-        Console.WriteLine("Kam chceš jít [W,A,S,D]");
+        Console.WriteLine("Kam chceš jít [W,A,S,D]                 Zobrazit penize [Love]");
         string vyber = Console.ReadLine().ToLower();
         if (vyber == "w")
         {
@@ -346,11 +346,17 @@ if (vyberZacatekZbrane == "ano")
         {
             Console.WriteLine("Šel jsi doprava");
         }
+        else if (vyber == "love")
+        {
+            Console.WriteLine("Tvůj zůstatek na účtě je " + penize + " dolaru");
+        }
         else if (vyber == "04122007")
         {
             Console.WriteLine("Našel jsi secret a zabijíš Trevora");
             Console.ForegroundColor = ConsoleColor.DarkYellow;
             Console.WriteLine("Victory Royale");
+            Console.WriteLine("Dostal si 1 000 000 000 dolaru jako odmenu");
+            penize = penize + 1000000000;
             Console.ResetColor();
         }
         else
@@ -361,5 +367,6 @@ if (vyberZacatekZbrane == "ano")
             Console.ResetColor();
             opakovani = false;
         }
+        
     }
 }
