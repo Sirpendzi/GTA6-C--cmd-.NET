@@ -177,7 +177,7 @@ if (vyberZacatekZbrane == "ano")
                                 Console.ForegroundColor = ConsoleColor.DarkRed;
                                 Console.Write("Lamar: ");
                                 Console.ResetColor();
-                                Console.WriteLine("„Hele, kámo, potřebuju tvou pomoc. Můj pes, Chop, se dostal do průšvihu, brácho. Nějaký divný týpci ho unesli.");
+                                Console.WriteLine("„Hele, kámo, potřebuju tvou pomoc. Můj pes, Chop, se dostal do průšvihu, negře. Nějaký divný týpci ho unesli.");
                                 Console.WriteLine("Říkají, že jestli se do toho vložíme, nebude to pěkný... Potřebuju někoho, kdo se nebojí, chápeš? Jsi ready? [ANO / NE]“");
                                 string volbaChop1 = Console.ReadLine().ToLower();
                                 bool opakovaniChop1 = true;
