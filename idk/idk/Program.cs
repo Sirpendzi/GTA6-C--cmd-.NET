@@ -192,6 +192,7 @@ if (vyberZacatekZbrane == "ano")
                                             Console.WriteLine("„Dobrej kluk, věděl jsem, že na tebe se můžu spolehnout! Tady je plán – začneme tím, že prozkoumáme jejich doupě v South Los Santos.");
                                             Console.WriteLine("Slyšel jsem, že ti týpci kolem tohohle místa často krouží. Jdeme na to, jo?“ [ANO / NE]");
                                             string volbaChop2 = Console.ReadLine().ToLower();
+                                            opakovaniChop1 = false;
                                             if (volbaChop2 == "ano")
                                             {
                                                 Console.ForegroundColor = ConsoleColor.DarkRed;
@@ -210,14 +211,54 @@ if (vyberZacatekZbrane == "ano")
                                                         Console.ResetColor();
                                                         Console.WriteLine("„Dobře, plížíme se! Ticho a klidně, jinak si nás všimnou. Vidím tam dva týpky.");
                                                         Console.WriteLine("Buď se můžeme připlížit a vyřadit je potichu, nebo je obejdeme. Co si myslíš?“");
-                                                        Console.WriteLine("1 - Zabít je / 2 - Obejít je");
-                                                        // POKRAČOVAT
+                                                        Console.WriteLine("1 - Zneškodnit je potichu / 2 - Obejít je");
+                                                        int volbaChop5 = Convert.ToInt32(Console.ReadLine());
+                                                        switch (volbaChop5)
+                                                        {
+                                                            case 1:
+                                                                Console.ForegroundColor = ConsoleColor.DarkRed;
+                                                                Console.Write("Lamar: ");
+                                                                Console.ResetColor();
+                                                                Console.WriteLine("„Tak to je ono! Hned vědí, že jim lezeme do rajónu!“ (Vytahuje zbraň a připravuje se na akci.)");
+                                                                Console.WriteLine("„OK, kámo, jsme tady kvůli Chopovi, takže žádný slitování.");
+                                                                Console.WriteLine("Další krok je čistka uvnitř, anebo rychlý průzkum.");
+                                                                Console.WriteLine("Radši chceš prozkoumat dům, nebo vzít Chopa a utéct?“");
+                                                                Console.WriteLine("1 - Prozkoumat dům / 2 - Rychle sebrat Chopa a utéct");
+                                                                int volbaChop6 = Convert.ToInt32(Console.ReadLine());
+                                                                switch (volbaChop6)
+                                                                {
+                                                                    case 1:
+                                                                        break;
+                                                                    case 2:
+                                                                        Console.ForegroundColor = ConsoleColor.DarkBlue;
+                                                                        Console.WriteLine("(Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
+                                                                        Console.ForegroundColor = ConsoleColor.DarkRed;
+                                                                        Console.Write("Lamar: ");
+                                                                        Console.ResetColor();
+                                                                        Console.WriteLine("„Chope! No vidíš, kámo, konečně jsme ho našli! ");
+                                                                        Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [ANO / NE]");
+                                                                        break;
+                                                                }
+                                                                break;
+                                                            case 2:
+                                                                Console.ForegroundColor = ConsoleColor.DarkRed;
+                                                                Console.Write("Lamar: ");
+                                                                Console.ResetColor();
+                                                                Console.WriteLine("„Haha, vidím, že máš rád rychlý řešení! OK, vytáhnem zbraně a jdeme rovnou dovnitř!");
+                                                                Console.WriteLine("Chceš vzít první dávku, nebo si počkáš na signál ode mě?“");
+                                                                Console.WriteLine("1 - Já začnu první / 2 - Počkám na tvůj signál");
+                                                                break;
+                                                            default:
+                                                                Console.ForegroundColor = ConsoleColor.DarkRed;
+                                                                Console.Write("Lamar: ");
+                                                                Console.ResetColor();
+                                                                break;
+                                                        }
                                                         break;
                                                     case 2:
                                                         Console.ForegroundColor = ConsoleColor.DarkRed;
                                                         Console.Write("Lamar: ");
                                                         Console.ResetColor();
-                                                        // POKRAČOVAT
                                                         break;
                                                     case 3:
                                                         Console.ForegroundColor = ConsoleColor.DarkRed;
@@ -242,6 +283,8 @@ if (vyberZacatekZbrane == "ano")
                                             else
                                             {
                                                 Console.WriteLine("Bohužel kámo, není cesty zpět, už jsi mi to odsouhlasil.");
+                                                opakovaniChop1 = false;
+                                                // VLOŽIT POSTUP PRO ANO
                                             }
                                             break;
                                         case "ne":
@@ -367,6 +410,6 @@ if (vyberZacatekZbrane == "ano")
             Console.ResetColor();
             opakovani = false;
         }
-        
+
     }
 }
