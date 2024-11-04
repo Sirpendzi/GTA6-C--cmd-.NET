@@ -46,6 +46,7 @@ if (vyberZacatekZbrane == "ano")
             opakovani = true;
             Console.WriteLine("Tvůj učetní zůstatek je ted " + penize + " dolaru");
             Console.WriteLine();
+            bool vlastnikGlock = true;
         }
         else if (vyberGlock == "ano" && penize < cenaGlock)
         {
@@ -75,6 +76,7 @@ if (vyberZacatekZbrane == "ano")
             opakovani = true;
             Console.WriteLine("Tvůj učetní zůstatek je ted " + penize + " dolaru");
             Console.WriteLine();
+            bool vlastnikAR15 = true;
         }
         else if (vyberAR == "ano" && penize < cenaAr15)
         {
