@@ -254,9 +254,10 @@ if (vyberZacatekZbrane == "ano")
                                                                                 Console.WriteLine("Truhla se otevřela a uvnitř byla skrytá past! V místnosti se začal šířit jedovatý plyn...");
                                                                                 Console.WriteLine("Chop, který stál poblíž, se nadýchal plynu a zhroutil se na zem.");
                                                                                 Console.ResetColor();
-                                                                                Console.ForegroundColor = ConsoleColor.Red;
-                                                                                Console.WriteLine("Lamar: To ne! Chop je pryč, kámo... To si pamatuj, už ti za takovou práci platit nebudu! A buď rád, že vůbec odcházíš živý.");
+                                                                                Console.ForegroundColor = ConsoleColor.DarkRed;
+                                                                                Console.WriteLine("Lamar: ");
                                                                                 Console.ResetColor();
+                                                                                Console.WriteLine("To ne! Chop je pryč, kámo... To si pamatuj, už ti za takovou práci platit nebudu! A buď rád, že vůbec odcházíš živý.");
                                                                                 opakovaniChop1 = false;
                                                                                 break;
                                                                             case 2:
