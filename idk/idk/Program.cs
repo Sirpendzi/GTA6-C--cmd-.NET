@@ -178,6 +178,7 @@ if (vyberZacatekZbrane == "ano")
                         switch (volbaPracicky)
                         {
                             case "chop":
+                                Console.Clear();
                                 Console.ForegroundColor = ConsoleColor.DarkRed;
                                 Console.Write("Lamar: ");
                                 Console.ResetColor();
