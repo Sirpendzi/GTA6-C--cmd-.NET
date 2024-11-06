@@ -254,7 +254,7 @@ if (vyberZacatekZbrane == "ano")
                                                                                 Console.WriteLine("Truhla se otevřela a uvnitř byla skrytá past! V místnosti se začal šířit jedovatý plyn...");
                                                                                 Console.WriteLine("Chop, který stál poblíž, se nadýchal plynu a zhroutil se na zem.");
                                                                                 Console.ResetColor();
-                                                                                Console.ForegroundColor = ConsoleColor.DarkRed;
+                                                                                Console.ForegroundColor = ConsoleColor.Red;
                                                                                 Console.WriteLine("Lamar: ");
                                                                                 Console.ResetColor();
                                                                                 Console.WriteLine("To ne! Chop je pryč, kámo... To si pamatuj, už ti za takovou práci platit nebudu! A buď rád, že vůbec odcházíš živý.");
@@ -268,7 +268,7 @@ if (vyberZacatekZbrane == "ano")
                                                                                 Console.ResetColor();
                                                                                 Console.WriteLine("„Okej kámo, jdeme si pro Chopa. Žádné hlouposti...");
                                                                                 Console.ForegroundColor = ConsoleColor.DarkBlue;
-                                                                                Console.WriteLine("(Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
+                                                                                Console.WriteLine("( Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
                                                                                 Console.ForegroundColor = ConsoleColor.DarkRed;
                                                                                 Console.Write("Lamar: ");
                                                                                 Console.ResetColor();
@@ -301,7 +301,7 @@ if (vyberZacatekZbrane == "ano")
                                                                         break;
                                                                     case 2:
                                                                         Console.ForegroundColor = ConsoleColor.DarkBlue;
-                                                                        Console.WriteLine("(Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
+                                                                        Console.WriteLine("( Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
                                                                         Console.ForegroundColor = ConsoleColor.DarkRed;
                                                                         Console.Write("Lamar: ");
                                                                         Console.ResetColor();
@@ -380,7 +380,7 @@ if (vyberZacatekZbrane == "ano")
                                                                                 Console.ResetColor();
                                                                                 Console.WriteLine("„Okej kámo, jdeme si pro Chopa. Žádné hlouposti...");
                                                                                 Console.ForegroundColor = ConsoleColor.DarkBlue;
-                                                                                Console.WriteLine("(Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
+                                                                                Console.WriteLine("( Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
                                                                                 Console.ForegroundColor = ConsoleColor.DarkRed;
                                                                                 Console.Write("Lamar: ");
                                                                                 Console.ResetColor();
@@ -413,7 +413,7 @@ if (vyberZacatekZbrane == "ano")
                                                                         break;
                                                                     case 2:
                                                                         Console.ForegroundColor = ConsoleColor.DarkBlue;
-                                                                        Console.WriteLine("(Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
+                                                                        Console.WriteLine("( Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
                                                                         Console.ForegroundColor = ConsoleColor.DarkRed;
                                                                         Console.Write("Lamar: ");
                                                                         Console.ResetColor();
@@ -493,7 +493,7 @@ if (vyberZacatekZbrane == "ano")
                                                                                     Console.ResetColor();
                                                                                     Console.WriteLine("„Okej kámo, jdeme si pro Chopa. Žádné hlouposti...");
                                                                                     Console.ForegroundColor = ConsoleColor.DarkBlue;
-                                                                                    Console.WriteLine("(Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
+                                                                                    Console.WriteLine("( Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
                                                                                     Console.ForegroundColor = ConsoleColor.DarkRed;
                                                                                     Console.Write("Lamar: ");
                                                                                     Console.ResetColor();
@@ -526,7 +526,7 @@ if (vyberZacatekZbrane == "ano")
                                                                             break;
                                                                         case 2:
                                                                             Console.ForegroundColor = ConsoleColor.DarkBlue;
-                                                                            Console.WriteLine("(Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
+                                                                            Console.WriteLine("( Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
                                                                             Console.ForegroundColor = ConsoleColor.DarkRed;
                                                                             Console.Write("Lamar: ");
                                                                             Console.ResetColor();
@@ -604,7 +604,7 @@ if (vyberZacatekZbrane == "ano")
                                                                                     Console.ResetColor();
                                                                                     Console.WriteLine("„Okej kámo, jdeme si pro Chopa. Žádné hlouposti...");
                                                                                     Console.ForegroundColor = ConsoleColor.DarkBlue;
-                                                                                    Console.WriteLine("(Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
+                                                                                    Console.WriteLine("( Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
                                                                                     Console.ForegroundColor = ConsoleColor.DarkRed;
                                                                                     Console.Write("Lamar: ");
                                                                                     Console.ResetColor();
@@ -637,7 +637,7 @@ if (vyberZacatekZbrane == "ano")
                                                                             break;
                                                                         case 2:
                                                                             Console.ForegroundColor = ConsoleColor.DarkBlue;
-                                                                            Console.WriteLine("(Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
+                                                                            Console.WriteLine("( Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
                                                                             Console.ForegroundColor = ConsoleColor.DarkRed;
                                                                             Console.Write("Lamar: ");
                                                                             Console.ResetColor();
@@ -696,7 +696,7 @@ if (vyberZacatekZbrane == "ano")
                                                                     System.Threading.Thread.Sleep(1000);
                                                                 }
                                                                 Console.ForegroundColor = ConsoleColor.DarkBlue;
-                                                                Console.WriteLine("(Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
+                                                                Console.WriteLine("( Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
                                                                 Console.ForegroundColor = ConsoleColor.DarkRed;
                                                                 Console.Write("Lamar: ");
                                                                 Console.ResetColor();
@@ -732,7 +732,7 @@ if (vyberZacatekZbrane == "ano")
                                                                     System.Threading.Thread.Sleep(1000);
                                                                 }
                                                                 Console.ForegroundColor = ConsoleColor.DarkBlue;
-                                                                Console.WriteLine("(Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
+                                                                Console.WriteLine("( Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
                                                                 Console.ForegroundColor = ConsoleColor.DarkRed;
                                                                 Console.Write("Lamar: ");
                                                                 Console.ResetColor();
@@ -859,7 +859,7 @@ if (vyberZacatekZbrane == "ano")
                                                                                 Console.ResetColor();
                                                                                 Console.WriteLine("„Okej kámo, jdeme si pro Chopa. Žádné hlouposti...");
                                                                                 Console.ForegroundColor = ConsoleColor.DarkBlue;
-                                                                                Console.WriteLine("(Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
+                                                                                Console.WriteLine("( Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
                                                                                 Console.ForegroundColor = ConsoleColor.DarkRed;
                                                                                 Console.Write("Lamar: ");
                                                                                 Console.ResetColor();
@@ -892,7 +892,7 @@ if (vyberZacatekZbrane == "ano")
                                                                         break;
                                                                     case 2:
                                                                         Console.ForegroundColor = ConsoleColor.DarkBlue;
-                                                                        Console.WriteLine("(Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
+                                                                        Console.WriteLine("( Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
                                                                         Console.ForegroundColor = ConsoleColor.DarkRed;
                                                                         Console.Write("Lamar: ");
                                                                         Console.ResetColor();
@@ -971,7 +971,7 @@ if (vyberZacatekZbrane == "ano")
                                                                                 Console.ResetColor();
                                                                                 Console.WriteLine("„Okej kámo, jdeme si pro Chopa. Žádné hlouposti...");
                                                                                 Console.ForegroundColor = ConsoleColor.DarkBlue;
-                                                                                Console.WriteLine("(Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
+                                                                                Console.WriteLine("( Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
                                                                                 Console.ForegroundColor = ConsoleColor.DarkRed;
                                                                                 Console.Write("Lamar: ");
                                                                                 Console.ResetColor();
@@ -1004,7 +1004,7 @@ if (vyberZacatekZbrane == "ano")
                                                                         break;
                                                                     case 2:
                                                                         Console.ForegroundColor = ConsoleColor.DarkBlue;
-                                                                        Console.WriteLine("(Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
+                                                                        Console.WriteLine("( Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
                                                                         Console.ForegroundColor = ConsoleColor.DarkRed;
                                                                         Console.Write("Lamar: ");
                                                                         Console.ResetColor();
@@ -1084,7 +1084,7 @@ if (vyberZacatekZbrane == "ano")
                                                                                     Console.ResetColor();
                                                                                     Console.WriteLine("„Okej kámo, jdeme si pro Chopa. Žádné hlouposti...");
                                                                                     Console.ForegroundColor = ConsoleColor.DarkBlue;
-                                                                                    Console.WriteLine("(Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
+                                                                                    Console.WriteLine("( Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
                                                                                     Console.ForegroundColor = ConsoleColor.DarkRed;
                                                                                     Console.Write("Lamar: ");
                                                                                     Console.ResetColor();
@@ -1117,7 +1117,7 @@ if (vyberZacatekZbrane == "ano")
                                                                             break;
                                                                         case 2:
                                                                             Console.ForegroundColor = ConsoleColor.DarkBlue;
-                                                                            Console.WriteLine("(Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
+                                                                            Console.WriteLine("( Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
                                                                             Console.ForegroundColor = ConsoleColor.DarkRed;
                                                                             Console.Write("Lamar: ");
                                                                             Console.ResetColor();
@@ -1197,7 +1197,7 @@ if (vyberZacatekZbrane == "ano")
                                                                                     Console.ResetColor();
                                                                                     Console.WriteLine("„Okej kámo, jdeme si pro Chopa. Žádné hlouposti...");
                                                                                     Console.ForegroundColor = ConsoleColor.DarkBlue;
-                                                                                    Console.WriteLine("(Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
+                                                                                    Console.WriteLine("( Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
                                                                                     Console.ForegroundColor = ConsoleColor.DarkRed;
                                                                                     Console.Write("Lamar: ");
                                                                                     Console.ResetColor();
@@ -1230,7 +1230,7 @@ if (vyberZacatekZbrane == "ano")
                                                                             break;
                                                                         case 2:
                                                                             Console.ForegroundColor = ConsoleColor.DarkBlue;
-                                                                            Console.WriteLine("(Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
+                                                                            Console.WriteLine("( Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
                                                                             Console.ForegroundColor = ConsoleColor.DarkRed;
                                                                             Console.Write("Lamar: ");
                                                                             Console.ResetColor();
@@ -1289,7 +1289,7 @@ if (vyberZacatekZbrane == "ano")
                                                                     System.Threading.Thread.Sleep(1000);
                                                                 }
                                                                 Console.ForegroundColor = ConsoleColor.DarkBlue;
-                                                                Console.WriteLine("(Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
+                                                                Console.WriteLine("( Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
                                                                 Console.ForegroundColor = ConsoleColor.DarkRed;
                                                                 Console.Write("Lamar: ");
                                                                 Console.ResetColor();
@@ -1325,7 +1325,7 @@ if (vyberZacatekZbrane == "ano")
                                                                     System.Threading.Thread.Sleep(1000);
                                                                 }
                                                                 Console.ForegroundColor = ConsoleColor.DarkBlue;
-                                                                Console.WriteLine("(Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
+                                                                Console.WriteLine("( Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
                                                                 Console.ForegroundColor = ConsoleColor.DarkRed;
                                                                 Console.Write("Lamar: ");
                                                                 Console.ResetColor();
@@ -1463,7 +1463,7 @@ if (vyberZacatekZbrane == "ano")
                                                                                     Console.ResetColor();
                                                                                     Console.WriteLine("„Okej kámo, jdeme si pro Chopa. Žádné hlouposti...");
                                                                                     Console.ForegroundColor = ConsoleColor.DarkBlue;
-                                                                                    Console.WriteLine("(Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
+                                                                                    Console.WriteLine("( Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
                                                                                     Console.ForegroundColor = ConsoleColor.DarkRed;
                                                                                     Console.Write("Lamar: ");
                                                                                     Console.ResetColor();
@@ -1496,7 +1496,7 @@ if (vyberZacatekZbrane == "ano")
                                                                             break;
                                                                         case 2:
                                                                             Console.ForegroundColor = ConsoleColor.DarkBlue;
-                                                                            Console.WriteLine("(Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
+                                                                            Console.WriteLine("( Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
                                                                             Console.ForegroundColor = ConsoleColor.DarkRed;
                                                                             Console.Write("Lamar: ");
                                                                             Console.ResetColor();
@@ -1575,7 +1575,7 @@ if (vyberZacatekZbrane == "ano")
                                                                                     Console.ResetColor();
                                                                                     Console.WriteLine("„Okej kámo, jdeme si pro Chopa. Žádné hlouposti...");
                                                                                     Console.ForegroundColor = ConsoleColor.DarkBlue;
-                                                                                    Console.WriteLine("(Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
+                                                                                    Console.WriteLine("( Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
                                                                                     Console.ForegroundColor = ConsoleColor.DarkRed;
                                                                                     Console.Write("Lamar: ");
                                                                                     Console.ResetColor();
@@ -1608,7 +1608,7 @@ if (vyberZacatekZbrane == "ano")
                                                                             break;
                                                                         case 2:
                                                                             Console.ForegroundColor = ConsoleColor.DarkBlue;
-                                                                            Console.WriteLine("(Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
+                                                                            Console.WriteLine("( Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
                                                                             Console.ForegroundColor = ConsoleColor.DarkRed;
                                                                             Console.Write("Lamar: ");
                                                                             Console.ResetColor();
@@ -1688,7 +1688,7 @@ if (vyberZacatekZbrane == "ano")
                                                                                         Console.ResetColor();
                                                                                         Console.WriteLine("„Okej kámo, jdeme si pro Chopa. Žádné hlouposti...");
                                                                                         Console.ForegroundColor = ConsoleColor.DarkBlue;
-                                                                                        Console.WriteLine("(Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
+                                                                                        Console.WriteLine("( Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
                                                                                         Console.ForegroundColor = ConsoleColor.DarkRed;
                                                                                         Console.Write("Lamar: ");
                                                                                         Console.ResetColor();
@@ -1721,7 +1721,7 @@ if (vyberZacatekZbrane == "ano")
                                                                                 break;
                                                                             case 2:
                                                                                 Console.ForegroundColor = ConsoleColor.DarkBlue;
-                                                                                Console.WriteLine("(Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
+                                                                                Console.WriteLine("( Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
                                                                                 Console.ForegroundColor = ConsoleColor.DarkRed;
                                                                                 Console.Write("Lamar: ");
                                                                                 Console.ResetColor();
@@ -1801,7 +1801,7 @@ if (vyberZacatekZbrane == "ano")
                                                                                         Console.ResetColor();
                                                                                         Console.WriteLine("„Okej kámo, jdeme si pro Chopa. Žádné hlouposti...");
                                                                                         Console.ForegroundColor = ConsoleColor.DarkBlue;
-                                                                                        Console.WriteLine("(Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
+                                                                                        Console.WriteLine("( Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
                                                                                         Console.ForegroundColor = ConsoleColor.DarkRed;
                                                                                         Console.Write("Lamar: ");
                                                                                         Console.ResetColor();
@@ -1834,7 +1834,7 @@ if (vyberZacatekZbrane == "ano")
                                                                                 break;
                                                                             case 2:
                                                                                 Console.ForegroundColor = ConsoleColor.DarkBlue;
-                                                                                Console.WriteLine("(Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
+                                                                                Console.WriteLine("( Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
                                                                                 Console.ForegroundColor = ConsoleColor.DarkRed;
                                                                                 Console.Write("Lamar: ");
                                                                                 Console.ResetColor();
@@ -1893,7 +1893,7 @@ if (vyberZacatekZbrane == "ano")
                                                                         System.Threading.Thread.Sleep(1000);
                                                                     }
                                                                     Console.ForegroundColor = ConsoleColor.DarkBlue;
-                                                                    Console.WriteLine("(Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
+                                                                    Console.WriteLine("( Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
                                                                     Console.ForegroundColor = ConsoleColor.DarkRed;
                                                                     Console.Write("Lamar: ");
                                                                     Console.ResetColor();
@@ -1929,7 +1929,7 @@ if (vyberZacatekZbrane == "ano")
                                                                         System.Threading.Thread.Sleep(1000);
                                                                     }
                                                                     Console.ForegroundColor = ConsoleColor.DarkBlue;
-                                                                    Console.WriteLine("(Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
+                                                                    Console.WriteLine("( Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
                                                                     Console.ForegroundColor = ConsoleColor.DarkRed;
                                                                     Console.Write("Lamar: ");
                                                                     Console.ResetColor();
@@ -2074,7 +2074,7 @@ if (vyberZacatekZbrane == "ano")
                                                                                             Console.ResetColor();
                                                                                             Console.WriteLine("„Okej kámo, jdeme si pro Chopa. Žádné hlouposti...");
                                                                                             Console.ForegroundColor = ConsoleColor.DarkBlue;
-                                                                                            Console.WriteLine("(Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
+                                                                                            Console.WriteLine("( Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
                                                                                             Console.ForegroundColor = ConsoleColor.DarkRed;
                                                                                             Console.Write("Lamar: ");
                                                                                             Console.ResetColor();
@@ -2107,7 +2107,7 @@ if (vyberZacatekZbrane == "ano")
                                                                                     break;
                                                                                 case 2:
                                                                                     Console.ForegroundColor = ConsoleColor.DarkBlue;
-                                                                                    Console.WriteLine("(Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
+                                                                                    Console.WriteLine("( Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
                                                                                     Console.ForegroundColor = ConsoleColor.DarkRed;
                                                                                     Console.Write("Lamar: ");
                                                                                     Console.ResetColor();
@@ -2186,7 +2186,7 @@ if (vyberZacatekZbrane == "ano")
                                                                                             Console.ResetColor();
                                                                                             Console.WriteLine("„Okej kámo, jdeme si pro Chopa. Žádné hlouposti...");
                                                                                             Console.ForegroundColor = ConsoleColor.DarkBlue;
-                                                                                            Console.WriteLine("(Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
+                                                                                            Console.WriteLine("( Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
                                                                                             Console.ForegroundColor = ConsoleColor.DarkRed;
                                                                                             Console.Write("Lamar: ");
                                                                                             Console.ResetColor();
@@ -2219,7 +2219,7 @@ if (vyberZacatekZbrane == "ano")
                                                                                     break;
                                                                                 case 2:
                                                                                     Console.ForegroundColor = ConsoleColor.DarkBlue;
-                                                                                    Console.WriteLine("(Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
+                                                                                    Console.WriteLine("( Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
                                                                                     Console.ForegroundColor = ConsoleColor.DarkRed;
                                                                                     Console.Write("Lamar: ");
                                                                                     Console.ResetColor();
@@ -2299,7 +2299,7 @@ if (vyberZacatekZbrane == "ano")
                                                                                                 Console.ResetColor();
                                                                                                 Console.WriteLine("„Okej kámo, jdeme si pro Chopa. Žádné hlouposti...");
                                                                                                 Console.ForegroundColor = ConsoleColor.DarkBlue;
-                                                                                                Console.WriteLine("(Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
+                                                                                                Console.WriteLine("( Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
                                                                                                 Console.ForegroundColor = ConsoleColor.DarkRed;
                                                                                                 Console.Write("Lamar: ");
                                                                                                 Console.ResetColor();
@@ -2332,7 +2332,7 @@ if (vyberZacatekZbrane == "ano")
                                                                                         break;
                                                                                     case 2:
                                                                                         Console.ForegroundColor = ConsoleColor.DarkBlue;
-                                                                                        Console.WriteLine("(Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
+                                                                                        Console.WriteLine("( Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
                                                                                         Console.ForegroundColor = ConsoleColor.DarkRed;
                                                                                         Console.Write("Lamar: ");
                                                                                         Console.ResetColor();
@@ -2412,7 +2412,7 @@ if (vyberZacatekZbrane == "ano")
                                                                                                 Console.ResetColor();
                                                                                                 Console.WriteLine("„Okej kámo, jdeme si pro Chopa. Žádné hlouposti...");
                                                                                                 Console.ForegroundColor = ConsoleColor.DarkBlue;
-                                                                                                Console.WriteLine("(Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
+                                                                                                Console.WriteLine("( Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
                                                                                                 Console.ForegroundColor = ConsoleColor.DarkRed;
                                                                                                 Console.Write("Lamar: ");
                                                                                                 Console.ResetColor();
@@ -2445,7 +2445,7 @@ if (vyberZacatekZbrane == "ano")
                                                                                         break;
                                                                                     case 2:
                                                                                         Console.ForegroundColor = ConsoleColor.DarkBlue;
-                                                                                        Console.WriteLine("(Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
+                                                                                        Console.WriteLine("( Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
                                                                                         Console.ForegroundColor = ConsoleColor.DarkRed;
                                                                                         Console.Write("Lamar: ");
                                                                                         Console.ResetColor();
@@ -2504,7 +2504,7 @@ if (vyberZacatekZbrane == "ano")
                                                                                 System.Threading.Thread.Sleep(1000);
                                                                             }
                                                                             Console.ForegroundColor = ConsoleColor.DarkBlue;
-                                                                            Console.WriteLine("(Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
+                                                                            Console.WriteLine("( Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
                                                                             Console.ForegroundColor = ConsoleColor.DarkRed;
                                                                             Console.Write("Lamar: ");
                                                                             Console.ResetColor();
@@ -2540,7 +2540,7 @@ if (vyberZacatekZbrane == "ano")
                                                                                 System.Threading.Thread.Sleep(1000);
                                                                             }
                                                                             Console.ForegroundColor = ConsoleColor.DarkBlue;
-                                                                            Console.WriteLine("(Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
+                                                                            Console.WriteLine("( Vrháte se na hlídače a po krátkém boji dorazíte do místnosti, kde najdete Chopa spoutaného a vyděšeného.)");
                                                                             Console.ForegroundColor = ConsoleColor.DarkRed;
                                                                             Console.Write("Lamar: ");
                                                                             Console.ResetColor();
