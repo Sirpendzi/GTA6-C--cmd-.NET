@@ -8,7 +8,7 @@ Fuckstar™ Game není v žádném případě oficiálně spojena se společnost
 
 <strong>O projektu GTA 6</strong>
 <br></br>
-Naše hra je inspirovaná konceptem otevřeného světa a nabízí nové možnosti a herní mechaniky, které originál dosud neodhalil. Jako nadšení fanoušci RPG, MMORPG a FPS her jsme se rozhodli vytvořit něco, co nám i vám může přinést radost a potěšení – a třeba se i trochu přiblížit k tomu, co od GTA 6 všichni očekáváme. Každý prvek, který ve hře najdete, byl navržen s péčí a ohledem na fanoušky originální série.
+GTA 6 - Ghetto Truce Alliance. Kde je dalších 6 dílů, ptáte se? Nikde, serem na ně a dobře se začíná od středu... Naše hra je inspirovaná konceptem otevřeného světa a nabízí nové možnosti a herní mechaniky, které originál dosud neodhalil. Jako nadšení fanoušci RPG, MMORPG a FPS her jsme se rozhodli vytvořit něco, co nám i vám může přinést radost a potěšení – a třeba se i trochu přiblížit k tomu, co od GTA 6 všichni očekáváme. Každý prvek, který ve hře najdete, byl navržen s péčí a ohledem na fanoušky originální série.
 
 <strong>Proč GTA 6?</strong>
 <br></br>
