@@ -67,6 +67,7 @@ if (vyberZacatekZbrane == "ano")
             opakovani = true;
         }
     }
+
     else if (vyberNabidkaZbrane == "ar15")
     {
         Console.WriteLine();
@@ -96,9 +97,18 @@ if (vyberZacatekZbrane == "ano")
             opakovani = true;
         }
     }
-    // dodělat system když nechce jit do obchodu tak opakovani = true a nic se nestane
+}
+else if (vyberZacatekZbrane == "ne")
+{
+    Console.WriteLine("Nešel si do obchodu");
+    Console.WriteLine();
+    opakovani = true;
+}
 
-    while (opakovani == true)
+
+
+
+while (opakovani == true)
     {
         Console.WriteLine("Kam chceš jít [W,A,S,D]                 Zobrazit penize [Love]");
         string vyber = Console.ReadLine().ToLower();
@@ -2837,4 +2847,3 @@ if (vyberZacatekZbrane == "ano")
         }
 
     }
-}
