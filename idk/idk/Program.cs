@@ -68,7 +68,7 @@ if (vyberZacatekZbrane == "ano")
     else if (vyberNabidkaZbrane == "ar15")
     {
         Console.WriteLine();
-        Console.WriteLine("Opravdu to chceš koupit? [ANO / NE]");
+        Console.WriteLine("Opravdu to chceš koupit? [Ano / NE]");
         string vyberAR = Console.ReadLine().ToLower();
         if (vyberAR == "ano" && penize >= cenaAr15)
         {
@@ -106,9 +106,9 @@ if (vyberZacatekZbrane == "ano")
             int nahodnePolda = random.Next(0, 7);
             if (nahodnePolda == 4)
             {
-                Console.WriteLine("Našel si poldu, co uděláš? chceš ho zabít [ANO / NE]");
+                Console.WriteLine("Našel si poldu, co uděláš? chceš ho zabít [Ano / NE]");
                 string vyberPolda = Console.ReadLine().ToLower();
-                if (vyberPolda == "ano")
+                if (vyberPolda == "Ano")
                 {
                     Console.WriteLine("Zabil si poldu");
                 }
@@ -167,11 +167,11 @@ if (vyberZacatekZbrane == "ano")
             int krokDozadu = random.Next(0, 40);
             if (krokDozadu == 36)
             {
-                Console.WriteLine("Narazil jsi do Lamara, který se tě ptá jestli nechceš udělat nějakou težkou práci. Jdeš do toho? [ANO / NE]");
+                Console.WriteLine("Narazil jsi do Lamara, který se tě ptá jestli nechceš udělat nějakou težkou práci. Jdeš do toho? [Ano / NE]");
                 string volbaCernoch = Console.ReadLine().ToLower();
                 switch (volbaCernoch)
                 {
-                    case "ano":
+                    case "Ano":
                         Console.WriteLine("Je rád, že nejsi děvka. Položil ti další otázku: Jakou prací si vybereš?");
                         Console.WriteLine("Chop, Fleeca, Prison, Auta, Vagos");
                         string volbaPracicky = Console.ReadLine().ToLower();
@@ -183,22 +183,22 @@ if (vyberZacatekZbrane == "ano")
                                 Console.Write("Lamar: ");
                                 Console.ResetColor();
                                 Console.WriteLine("„Hele, kámo, potřebuju tvou pomoc. Můj pes, Chop, se dostal do průšvihu, negře. Nějaký divný týpci ho unesli.");
-                                Console.WriteLine("Říkají, že jestli se do toho vložíme, nebude to pěkný... Potřebuju někoho, kdo se nebojí, chápeš? Jsi ready? [ANO / NE]“");
+                                Console.WriteLine("Říkají, že jestli se do toho vložíme, nebude to pěkný... Potřebuju někoho, kdo se nebojí, chápeš? Jsi ready? [Ano / NE]“");
                                 string volbaChop1 = Console.ReadLine().ToLower();
                                 bool opakovaniChop1 = true;
                                 while (opakovaniChop1 == true)
                                 {
                                     switch (volbaChop1)
                                     {
-                                        case "ano":
+                                        case "Ano":
                                             Console.ForegroundColor = ConsoleColor.DarkRed;
                                             Console.Write("Lamar: ");
                                             Console.ResetColor();
                                             Console.WriteLine("„Dobrej kluk, věděl jsem, že na tebe se můžu spolehnout! Tady je plán – začneme tím, že prozkoumáme jejich doupě v South Los Santos.");
-                                            Console.WriteLine("Slyšel jsem, že ti týpci kolem tohohle místa často krouží. Jdeme na to, jo?“ [ANO / NE]");
+                                            Console.WriteLine("Slyšel jsem, že ti týpci kolem tohohle místa často krouží. Jdeme na to, jo?“ [Ano / NE]");
                                             string volbaChop2 = Console.ReadLine().ToLower();
                                             opakovaniChop1 = false;
-                                            if (volbaChop2 == "ano")
+                                            if (volbaChop2 == "Ano")
                                             {
                                                 Console.ForegroundColor = ConsoleColor.DarkRed;
                                                 Console.Write("Lamar: ");
@@ -273,7 +273,7 @@ if (vyberZacatekZbrane == "ano")
                                                                                 Console.Write("Lamar: ");
                                                                                 Console.ResetColor();
                                                                                 Console.WriteLine("„Chope! No vidíš, kámo, konečně jsme ho našli! ");
-                                                                                Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - ANO / 2 - NE]");
+                                                                                Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - Ano / 2 - NE]");
                                                                                 int volbaChop14 = Convert.ToInt32(Console.ReadLine());
                                                                                 switch (volbaChop14)
                                                                                 {
@@ -306,7 +306,7 @@ if (vyberZacatekZbrane == "ano")
                                                                         Console.Write("Lamar: ");
                                                                         Console.ResetColor();
                                                                         Console.WriteLine("„Chope! No vidíš, kámo, konečně jsme ho našli! ");
-                                                                        Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - ANO / 2 - NE]");
+                                                                        Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - Ano / 2 - NE]");
                                                                         int volbaChop8 = Convert.ToInt32(Console.ReadLine());
                                                                         switch (volbaChop8)
                                                                         {
@@ -385,7 +385,7 @@ if (vyberZacatekZbrane == "ano")
                                                                                 Console.Write("Lamar: ");
                                                                                 Console.ResetColor();
                                                                                 Console.WriteLine("„Chope! No vidíš, kámo, konečně jsme ho našli! ");
-                                                                                Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - ANO / 2 - NE]");
+                                                                                Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - Ano / 2 - NE]");
                                                                                 int volbaChop15 = Convert.ToInt32(Console.ReadLine());
                                                                                 switch (volbaChop15)
                                                                                 {
@@ -418,7 +418,7 @@ if (vyberZacatekZbrane == "ano")
                                                                         Console.Write("Lamar: ");
                                                                         Console.ResetColor();
                                                                         Console.WriteLine("„Chope! No vidíš, kámo, konečně jsme ho našli! ");
-                                                                        Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - ANO / 2 - NE]");
+                                                                        Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - Ano / 2 - NE]");
                                                                         int volbaChop8 = Convert.ToInt32(Console.ReadLine());
                                                                         switch (volbaChop8)
                                                                         {
@@ -498,7 +498,7 @@ if (vyberZacatekZbrane == "ano")
                                                                                     Console.Write("Lamar: ");
                                                                                     Console.ResetColor();
                                                                                     Console.WriteLine("„Chope! No vidíš, kámo, konečně jsme ho našli! ");
-                                                                                    Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - ANO / 2 - NE]");
+                                                                                    Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - Ano / 2 - Ne]");
                                                                                     int volbaChop14 = Convert.ToInt32(Console.ReadLine());
                                                                                     switch (volbaChop14)
                                                                                     {
@@ -531,7 +531,7 @@ if (vyberZacatekZbrane == "ano")
                                                                             Console.Write("Lamar: ");
                                                                             Console.ResetColor();
                                                                             Console.WriteLine("„Chope! No vidíš, kámo, konečně jsme ho našli! ");
-                                                                            Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - ANO / 2 - NE]");
+                                                                            Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - Ano / 2 - Ne]");
                                                                             int volbaChop8 = Convert.ToInt32(Console.ReadLine());
                                                                             switch (volbaChop8)
                                                                             {
@@ -556,7 +556,9 @@ if (vyberZacatekZbrane == "ano")
                                                                             }
                                                                             break;
                                                                     }
-                                                                } else {
+                                                                }
+                                                                else
+                                                                {
                                                                     Console.ForegroundColor = ConsoleColor.DarkRed;
                                                                     Console.Write("Lamar: ");
                                                                     Console.ResetColor();
@@ -609,7 +611,7 @@ if (vyberZacatekZbrane == "ano")
                                                                                     Console.Write("Lamar: ");
                                                                                     Console.ResetColor();
                                                                                     Console.WriteLine("„Chope! No vidíš, kámo, konečně jsme ho našli! ");
-                                                                                    Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - ANO / 2 - NE]");
+                                                                                    Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - Ano / 2 - Ne]");
                                                                                     int volbaChop16 = Convert.ToInt32(Console.ReadLine());
                                                                                     switch (volbaChop16)
                                                                                     {
@@ -642,7 +644,7 @@ if (vyberZacatekZbrane == "ano")
                                                                             Console.Write("Lamar: ");
                                                                             Console.ResetColor();
                                                                             Console.WriteLine("„Chope! No vidíš, kámo, konečně jsme ho našli! ");
-                                                                            Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - ANO / 2 - NE]");
+                                                                            Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - Ano / 2 - Ne]");
                                                                             int volbaChop8 = Convert.ToInt32(Console.ReadLine());
                                                                             switch (volbaChop8)
                                                                             {
@@ -701,7 +703,7 @@ if (vyberZacatekZbrane == "ano")
                                                                 Console.Write("Lamar: ");
                                                                 Console.ResetColor();
                                                                 Console.WriteLine("„Chope! No vidíš, kámo, konečně jsme ho našli! ");
-                                                                Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - ANO / 2 - NE]");
+                                                                Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - Ano / 2 - Ne]");
                                                                 int volbaChop9 = Convert.ToInt32(Console.ReadLine());
                                                                 switch (volbaChop9)
                                                                 {
@@ -737,7 +739,7 @@ if (vyberZacatekZbrane == "ano")
                                                                 Console.Write("Lamar: ");
                                                                 Console.ResetColor();
                                                                 Console.WriteLine("„Chope! No vidíš, kámo, konečně jsme ho našli! ");
-                                                                Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - ANO / 2 - NE]");
+                                                                Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - Ano / 2 - Ne]");
                                                                 int volbaChop10 = Convert.ToInt32(Console.ReadLine());
                                                                 switch (volbaChop10)
                                                                 {
@@ -768,9 +770,58 @@ if (vyberZacatekZbrane == "ano")
                                                         switch (volbaChop11)
                                                         {
                                                             case 1:
-
+                                                                Console.ForegroundColor = ConsoleColor.DarkRed;
+                                                                Console.Write("Lamar: ");
+                                                                Console.ResetColor();
+                                                                Console.WriteLine("„Fajn, trefný výběr! Tihle týpci se vrhnou jako blázni. Jdeme na to, já kryju!“");
+                                                                Thread.Sleep(2000);
+                                                                Console.Write("Lamar: ");
+                                                                Console.ResetColor();
+                                                                Console.WriteLine("„Chope! No vidíš, kámo, konečně jsme ho našli! ");
+                                                                Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - Ano / 2 - Ne]");
+                                                                int volbaChop10 = Convert.ToInt32(Console.ReadLine());
+                                                                switch (volbaChop10)
+                                                                {
+                                                                    case 1:
+                                                                        Console.ForegroundColor = ConsoleColor.DarkRed;
+                                                                        Console.Write("Lamar: ");
+                                                                        Console.ResetColor();
+                                                                        Console.WriteLine("„To je ono, negře! Chop je doma, díky tobě. Víš co? Dlužím ti službičku... a nějaký ty chechtáky.“");
+                                                                        break;
+                                                                    case 2:
+                                                                        Console.ForegroundColor = ConsoleColor.DarkRed;
+                                                                        Console.Write("Lamar: ");
+                                                                        Console.ResetColor();
+                                                                        Console.WriteLine("„Kámo musíme utíkat, není čas na výmluvy. Chop je doma, díky tobě. Víš co? Dlužím ti službičku... a nějaký ty chechtáky.“");
+                                                                        break;
+                                                                }
                                                                 break;
                                                             case 2:
+                                                                Console.ForegroundColor = ConsoleColor.DarkRed;
+                                                                Console.Write("Lamar: ");
+                                                                Console.ResetColor();
+                                                                Console.WriteLine("„Super volba, kámo! Rozhodí je to, a my budeme mít volnou cestu k Chopovi.“");
+                                                                Thread.Sleep(2000);
+                                                                Console.Write("Lamar: ");
+                                                                Console.ResetColor();
+                                                                Console.WriteLine("„Chope! No vidíš, kámo, konečně jsme ho našli! ");
+                                                                Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - Ano / 2 - Ne]");
+                                                                int volbaChop20 = Convert.ToInt32(Console.ReadLine());
+                                                                switch (volbaChop20)
+                                                                {
+                                                                    case 1:
+                                                                        Console.ForegroundColor = ConsoleColor.DarkRed;
+                                                                        Console.Write("Lamar: ");
+                                                                        Console.ResetColor();
+                                                                        Console.WriteLine("„To je ono, negře! Chop je doma, díky tobě. Víš co? Dlužím ti službičku... a nějaký ty chechtáky.“");
+                                                                        break;
+                                                                    case 2:
+                                                                        Console.ForegroundColor = ConsoleColor.DarkRed;
+                                                                        Console.Write("Lamar: ");
+                                                                        Console.ResetColor();
+                                                                        Console.WriteLine("„Kámo musíme utíkat, není čas na výmluvy. Chop je doma, díky tobě. Víš co? Dlužím ti službičku... a nějaký ty chechtáky.“");
+                                                                        break;
+                                                                }
                                                                 break;
                                                             default:
                                                                 Console.WriteLine("Zadal jsi špatnou možnost, zkus to znova");
@@ -864,7 +915,7 @@ if (vyberZacatekZbrane == "ano")
                                                                                 Console.Write("Lamar: ");
                                                                                 Console.ResetColor();
                                                                                 Console.WriteLine("„Chope! No vidíš, kámo, konečně jsme ho našli! ");
-                                                                                Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - ANO / 2 - NE]");
+                                                                                Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - Ano / 2 - NE]");
                                                                                 int volbaChop14 = Convert.ToInt32(Console.ReadLine());
                                                                                 switch (volbaChop14)
                                                                                 {
@@ -897,7 +948,7 @@ if (vyberZacatekZbrane == "ano")
                                                                         Console.Write("Lamar: ");
                                                                         Console.ResetColor();
                                                                         Console.WriteLine("„Chope! No vidíš, kámo, konečně jsme ho našli! ");
-                                                                        Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - ANO / 2 - NE]");
+                                                                        Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - Ano / 2 - NE]");
                                                                         int volbaChop8 = Convert.ToInt32(Console.ReadLine());
                                                                         switch (volbaChop8)
                                                                         {
@@ -976,7 +1027,7 @@ if (vyberZacatekZbrane == "ano")
                                                                                 Console.Write("Lamar: ");
                                                                                 Console.ResetColor();
                                                                                 Console.WriteLine("„Chope! No vidíš, kámo, konečně jsme ho našli! ");
-                                                                                Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - ANO / 2 - NE]");
+                                                                                Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - Ano / 2 - NE]");
                                                                                 int volbaChop15 = Convert.ToInt32(Console.ReadLine());
                                                                                 switch (volbaChop15)
                                                                                 {
@@ -1009,7 +1060,7 @@ if (vyberZacatekZbrane == "ano")
                                                                         Console.Write("Lamar: ");
                                                                         Console.ResetColor();
                                                                         Console.WriteLine("„Chope! No vidíš, kámo, konečně jsme ho našli! ");
-                                                                        Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - ANO / 2 - NE]");
+                                                                        Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - Ano / 2 - NE]");
                                                                         int volbaChop8 = Convert.ToInt32(Console.ReadLine());
                                                                         switch (volbaChop8)
                                                                         {
@@ -1089,7 +1140,7 @@ if (vyberZacatekZbrane == "ano")
                                                                                     Console.Write("Lamar: ");
                                                                                     Console.ResetColor();
                                                                                     Console.WriteLine("„Chope! No vidíš, kámo, konečně jsme ho našli! ");
-                                                                                    Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - ANO / 2 - NE]");
+                                                                                    Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - Ano / 2 - NE]");
                                                                                     int volbaChop14 = Convert.ToInt32(Console.ReadLine());
                                                                                     switch (volbaChop14)
                                                                                     {
@@ -1122,7 +1173,7 @@ if (vyberZacatekZbrane == "ano")
                                                                             Console.Write("Lamar: ");
                                                                             Console.ResetColor();
                                                                             Console.WriteLine("„Chope! No vidíš, kámo, konečně jsme ho našli! ");
-                                                                            Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - ANO / 2 - NE]");
+                                                                            Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - Ano / 2 - NE]");
                                                                             int volbaChop8 = Convert.ToInt32(Console.ReadLine());
                                                                             switch (volbaChop8)
                                                                             {
@@ -1202,7 +1253,7 @@ if (vyberZacatekZbrane == "ano")
                                                                                     Console.Write("Lamar: ");
                                                                                     Console.ResetColor();
                                                                                     Console.WriteLine("„Chope! No vidíš, kámo, konečně jsme ho našli! ");
-                                                                                    Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - ANO / 2 - NE]");
+                                                                                    Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - Ano / 2 - NE]");
                                                                                     int volbaChop16 = Convert.ToInt32(Console.ReadLine());
                                                                                     switch (volbaChop16)
                                                                                     {
@@ -1235,7 +1286,7 @@ if (vyberZacatekZbrane == "ano")
                                                                             Console.Write("Lamar: ");
                                                                             Console.ResetColor();
                                                                             Console.WriteLine("„Chope! No vidíš, kámo, konečně jsme ho našli! ");
-                                                                            Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - ANO / 2 - NE]");
+                                                                            Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - Ano / 2 - NE]");
                                                                             int volbaChop8 = Convert.ToInt32(Console.ReadLine());
                                                                             switch (volbaChop8)
                                                                             {
@@ -1294,7 +1345,7 @@ if (vyberZacatekZbrane == "ano")
                                                                 Console.Write("Lamar: ");
                                                                 Console.ResetColor();
                                                                 Console.WriteLine("„Chope! No vidíš, kámo, konečně jsme ho našli! ");
-                                                                Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - ANO / 2 - NE]");
+                                                                Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - Ano / 2 - NE]");
                                                                 int volbaChop9 = Convert.ToInt32(Console.ReadLine());
                                                                 switch (volbaChop9)
                                                                 {
@@ -1330,7 +1381,7 @@ if (vyberZacatekZbrane == "ano")
                                                                 Console.Write("Lamar: ");
                                                                 Console.ResetColor();
                                                                 Console.WriteLine("„Chope! No vidíš, kámo, konečně jsme ho našli! ");
-                                                                Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - ANO / 2 - NE]");
+                                                                Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - Ano / 2 - NE]");
                                                                 int volbaChop10 = Convert.ToInt32(Console.ReadLine());
                                                                 switch (volbaChop10)
                                                                 {
@@ -1391,11 +1442,11 @@ if (vyberZacatekZbrane == "ano")
                                             Console.Write("Lamar: ");
                                             Console.ResetColor();
                                             Console.WriteLine("„Cože, fakt? Hele, já chápu, jestli tě to děsí, ale teď nemáme čas váhat. Chop potřebuje pomoc.");
-                                            Console.WriteLine("Jdeš, nebo tě mám někam odložit, dokud to nebude hotový?“ [ANO / NE]");
+                                            Console.WriteLine("Jdeš, nebo tě mám někam odložit, dokud to nebude hotový?“ [Ano / NE]");
                                             string volbaChop3 = Console.ReadLine().ToLower();
                                             switch (volbaChop3)
                                             {
-                                                case "ano":
+                                                case "Ano":
                                                     Console.ForegroundColor = ConsoleColor.DarkRed;
                                                     Console.Write("Lamar: ");
                                                     Console.ResetColor();
@@ -1468,7 +1519,7 @@ if (vyberZacatekZbrane == "ano")
                                                                                     Console.Write("Lamar: ");
                                                                                     Console.ResetColor();
                                                                                     Console.WriteLine("„Chope! No vidíš, kámo, konečně jsme ho našli! ");
-                                                                                    Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - ANO / 2 - NE]");
+                                                                                    Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - Ano / 2 - NE]");
                                                                                     int volbaChop14 = Convert.ToInt32(Console.ReadLine());
                                                                                     switch (volbaChop14)
                                                                                     {
@@ -1501,7 +1552,7 @@ if (vyberZacatekZbrane == "ano")
                                                                             Console.Write("Lamar: ");
                                                                             Console.ResetColor();
                                                                             Console.WriteLine("„Chope! No vidíš, kámo, konečně jsme ho našli! ");
-                                                                            Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - ANO / 2 - NE]");
+                                                                            Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - Ano / 2 - NE]");
                                                                             int volbaChop8 = Convert.ToInt32(Console.ReadLine());
                                                                             switch (volbaChop8)
                                                                             {
@@ -1580,7 +1631,7 @@ if (vyberZacatekZbrane == "ano")
                                                                                     Console.Write("Lamar: ");
                                                                                     Console.ResetColor();
                                                                                     Console.WriteLine("„Chope! No vidíš, kámo, konečně jsme ho našli! ");
-                                                                                    Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - ANO / 2 - NE]");
+                                                                                    Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - Ano / 2 - NE]");
                                                                                     int volbaChop15 = Convert.ToInt32(Console.ReadLine());
                                                                                     switch (volbaChop15)
                                                                                     {
@@ -1613,7 +1664,7 @@ if (vyberZacatekZbrane == "ano")
                                                                             Console.Write("Lamar: ");
                                                                             Console.ResetColor();
                                                                             Console.WriteLine("„Chope! No vidíš, kámo, konečně jsme ho našli! ");
-                                                                            Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - ANO / 2 - NE]");
+                                                                            Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - Ano / 2 - NE]");
                                                                             int volbaChop8 = Convert.ToInt32(Console.ReadLine());
                                                                             switch (volbaChop8)
                                                                             {
@@ -1693,7 +1744,7 @@ if (vyberZacatekZbrane == "ano")
                                                                                         Console.Write("Lamar: ");
                                                                                         Console.ResetColor();
                                                                                         Console.WriteLine("„Chope! No vidíš, kámo, konečně jsme ho našli! ");
-                                                                                        Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - ANO / 2 - NE]");
+                                                                                        Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - Ano / 2 - NE]");
                                                                                         int volbaChop14 = Convert.ToInt32(Console.ReadLine());
                                                                                         switch (volbaChop14)
                                                                                         {
@@ -1726,7 +1777,7 @@ if (vyberZacatekZbrane == "ano")
                                                                                 Console.Write("Lamar: ");
                                                                                 Console.ResetColor();
                                                                                 Console.WriteLine("„Chope! No vidíš, kámo, konečně jsme ho našli! ");
-                                                                                Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - ANO / 2 - NE]");
+                                                                                Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - Ano / 2 - NE]");
                                                                                 int volbaChop8 = Convert.ToInt32(Console.ReadLine());
                                                                                 switch (volbaChop8)
                                                                                 {
@@ -1806,7 +1857,7 @@ if (vyberZacatekZbrane == "ano")
                                                                                         Console.Write("Lamar: ");
                                                                                         Console.ResetColor();
                                                                                         Console.WriteLine("„Chope! No vidíš, kámo, konečně jsme ho našli! ");
-                                                                                        Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - ANO / 2 - NE]");
+                                                                                        Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - Ano / 2 - NE]");
                                                                                         int volbaChop16 = Convert.ToInt32(Console.ReadLine());
                                                                                         switch (volbaChop16)
                                                                                         {
@@ -1839,7 +1890,7 @@ if (vyberZacatekZbrane == "ano")
                                                                                 Console.Write("Lamar: ");
                                                                                 Console.ResetColor();
                                                                                 Console.WriteLine("„Chope! No vidíš, kámo, konečně jsme ho našli! ");
-                                                                                Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - ANO / 2 - NE]");
+                                                                                Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - Ano / 2 - NE]");
                                                                                 int volbaChop8 = Convert.ToInt32(Console.ReadLine());
                                                                                 switch (volbaChop8)
                                                                                 {
@@ -1898,7 +1949,7 @@ if (vyberZacatekZbrane == "ano")
                                                                     Console.Write("Lamar: ");
                                                                     Console.ResetColor();
                                                                     Console.WriteLine("„Chope! No vidíš, kámo, konečně jsme ho našli! ");
-                                                                    Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - ANO / 2 - NE]");
+                                                                    Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - Ano / 2 - NE]");
                                                                     int volbaChop9 = Convert.ToInt32(Console.ReadLine());
                                                                     switch (volbaChop9)
                                                                     {
@@ -1934,7 +1985,7 @@ if (vyberZacatekZbrane == "ano")
                                                                     Console.Write("Lamar: ");
                                                                     Console.ResetColor();
                                                                     Console.WriteLine("„Chope! No vidíš, kámo, konečně jsme ho našli! ");
-                                                                    Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - ANO / 2 - NE]");
+                                                                    Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - Ano / 2 - NE]");
                                                                     int volbaChop10 = Convert.ToInt32(Console.ReadLine());
                                                                     switch (volbaChop10)
                                                                     {
@@ -1965,9 +2016,58 @@ if (vyberZacatekZbrane == "ano")
                                                             switch (volbaChop11)
                                                             {
                                                                 case 1:
-
+                                                                    Console.ForegroundColor = ConsoleColor.DarkRed;
+                                                                    Console.Write("Lamar: ");
+                                                                    Console.ResetColor();
+                                                                    Console.WriteLine("„Fajn, trefný výběr! Tihle týpci se vrhnou jako blázni. Jdeme na to, já kryju!“");
+                                                                    Thread.Sleep(2000);
+                                                                    Console.Write("Lamar: ");
+                                                                    Console.ResetColor();
+                                                                    Console.WriteLine("„Chope! No vidíš, kámo, konečně jsme ho našli! ");
+                                                                    Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - Ano / 2 - Ne]");
+                                                                    int volbaChop10 = Convert.ToInt32(Console.ReadLine());
+                                                                    switch (volbaChop10)
+                                                                    {
+                                                                        case 1:
+                                                                            Console.ForegroundColor = ConsoleColor.DarkRed;
+                                                                            Console.Write("Lamar: ");
+                                                                            Console.ResetColor();
+                                                                            Console.WriteLine("„To je ono, negře! Chop je doma, díky tobě. Víš co? Dlužím ti službičku... a nějaký ty chechtáky.“");
+                                                                            break;
+                                                                        case 2:
+                                                                            Console.ForegroundColor = ConsoleColor.DarkRed;
+                                                                            Console.Write("Lamar: ");
+                                                                            Console.ResetColor();
+                                                                            Console.WriteLine("„Kámo musíme utíkat, není čas na výmluvy. Chop je doma, díky tobě. Víš co? Dlužím ti službičku... a nějaký ty chechtáky.“");
+                                                                            break;
+                                                                    }
                                                                     break;
                                                                 case 2:
+                                                                    Console.ForegroundColor = ConsoleColor.DarkRed;
+                                                                    Console.Write("Lamar: ");
+                                                                    Console.ResetColor();
+                                                                    Console.WriteLine("„Fajn, trefný výběr! Tihle týpci se vrhnou jako blázni. Jdeme na to, já kryju!“");
+                                                                    Thread.Sleep(2000);
+                                                                    Console.Write("Lamar: ");
+                                                                    Console.ResetColor();
+                                                                    Console.WriteLine("„Chope! No vidíš, kámo, konečně jsme ho našli! ");
+                                                                    Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - Ano / 2 - Ne]");
+                                                                    int volbaChop21 = Convert.ToInt32(Console.ReadLine());
+                                                                    switch (volbaChop21)
+                                                                    {
+                                                                        case 1:
+                                                                            Console.ForegroundColor = ConsoleColor.DarkRed;
+                                                                            Console.Write("Lamar: ");
+                                                                            Console.ResetColor();
+                                                                            Console.WriteLine("„To je ono, negře! Chop je doma, díky tobě. Víš co? Dlužím ti službičku... a nějaký ty chechtáky.“");
+                                                                            break;
+                                                                        case 2:
+                                                                            Console.ForegroundColor = ConsoleColor.DarkRed;
+                                                                            Console.Write("Lamar: ");
+                                                                            Console.ResetColor();
+                                                                            Console.WriteLine("„Kámo musíme utíkat, není čas na výmluvy. Chop je doma, díky tobě. Víš co? Dlužím ti službičku... a nějaký ty chechtáky.“");
+                                                                            break;
+                                                                    }
                                                                     break;
                                                                 default:
                                                                     Console.WriteLine("Zadal jsi špatnou možnost, zkus to znova");
@@ -2002,11 +2102,11 @@ if (vyberZacatekZbrane == "ano")
                                                     opakovaniChop1 = false;
                                                     break;
                                                 default:
-                                                    Console.WriteLine("Je to ano nebo ne? [ANO / NE]");
+                                                    Console.WriteLine("Je to Ano nebo ne? [Ano / NE]");
                                                     string volbaChop18 = Console.ReadLine().ToLower();
                                                     switch (volbaChop18)
                                                     {
-                                                        case "ano":
+                                                        case "Ano":
                                                             Console.ForegroundColor = ConsoleColor.DarkRed;
                                                             Console.Write("Lamar: ");
                                                             Console.ResetColor();
@@ -2079,7 +2179,7 @@ if (vyberZacatekZbrane == "ano")
                                                                                             Console.Write("Lamar: ");
                                                                                             Console.ResetColor();
                                                                                             Console.WriteLine("„Chope! No vidíš, kámo, konečně jsme ho našli! ");
-                                                                                            Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - ANO / 2 - NE]");
+                                                                                            Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - Ano / 2 - NE]");
                                                                                             int volbaChop14 = Convert.ToInt32(Console.ReadLine());
                                                                                             switch (volbaChop14)
                                                                                             {
@@ -2112,7 +2212,7 @@ if (vyberZacatekZbrane == "ano")
                                                                                     Console.Write("Lamar: ");
                                                                                     Console.ResetColor();
                                                                                     Console.WriteLine("„Chope! No vidíš, kámo, konečně jsme ho našli! ");
-                                                                                    Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - ANO / 2 - NE]");
+                                                                                    Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - Ano / 2 - NE]");
                                                                                     int volbaChop8 = Convert.ToInt32(Console.ReadLine());
                                                                                     switch (volbaChop8)
                                                                                     {
@@ -2191,7 +2291,7 @@ if (vyberZacatekZbrane == "ano")
                                                                                             Console.Write("Lamar: ");
                                                                                             Console.ResetColor();
                                                                                             Console.WriteLine("„Chope! No vidíš, kámo, konečně jsme ho našli! ");
-                                                                                            Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - ANO / 2 - NE]");
+                                                                                            Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - Ano / 2 - NE]");
                                                                                             int volbaChop15 = Convert.ToInt32(Console.ReadLine());
                                                                                             switch (volbaChop15)
                                                                                             {
@@ -2224,7 +2324,7 @@ if (vyberZacatekZbrane == "ano")
                                                                                     Console.Write("Lamar: ");
                                                                                     Console.ResetColor();
                                                                                     Console.WriteLine("„Chope! No vidíš, kámo, konečně jsme ho našli! ");
-                                                                                    Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - ANO / 2 - NE]");
+                                                                                    Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - Ano / 2 - NE]");
                                                                                     int volbaChop8 = Convert.ToInt32(Console.ReadLine());
                                                                                     switch (volbaChop8)
                                                                                     {
@@ -2304,7 +2404,7 @@ if (vyberZacatekZbrane == "ano")
                                                                                                 Console.Write("Lamar: ");
                                                                                                 Console.ResetColor();
                                                                                                 Console.WriteLine("„Chope! No vidíš, kámo, konečně jsme ho našli! ");
-                                                                                                Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - ANO / 2 - NE]");
+                                                                                                Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - Ano / 2 - NE]");
                                                                                                 int volbaChop14 = Convert.ToInt32(Console.ReadLine());
                                                                                                 switch (volbaChop14)
                                                                                                 {
@@ -2337,7 +2437,7 @@ if (vyberZacatekZbrane == "ano")
                                                                                         Console.Write("Lamar: ");
                                                                                         Console.ResetColor();
                                                                                         Console.WriteLine("„Chope! No vidíš, kámo, konečně jsme ho našli! ");
-                                                                                        Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - ANO / 2 - NE]");
+                                                                                        Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - Ano / 2 - NE]");
                                                                                         int volbaChop8 = Convert.ToInt32(Console.ReadLine());
                                                                                         switch (volbaChop8)
                                                                                         {
@@ -2417,7 +2517,7 @@ if (vyberZacatekZbrane == "ano")
                                                                                                 Console.Write("Lamar: ");
                                                                                                 Console.ResetColor();
                                                                                                 Console.WriteLine("„Chope! No vidíš, kámo, konečně jsme ho našli! ");
-                                                                                                Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - ANO / 2 - NE]");
+                                                                                                Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - Ano / 2 - NE]");
                                                                                                 int volbaChop16 = Convert.ToInt32(Console.ReadLine());
                                                                                                 switch (volbaChop16)
                                                                                                 {
@@ -2450,7 +2550,7 @@ if (vyberZacatekZbrane == "ano")
                                                                                         Console.Write("Lamar: ");
                                                                                         Console.ResetColor();
                                                                                         Console.WriteLine("„Chope! No vidíš, kámo, konečně jsme ho našli! ");
-                                                                                        Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - ANO / 2 - NE]");
+                                                                                        Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - Ano / 2 - NE]");
                                                                                         int volbaChop8 = Convert.ToInt32(Console.ReadLine());
                                                                                         switch (volbaChop8)
                                                                                         {
@@ -2509,7 +2609,7 @@ if (vyberZacatekZbrane == "ano")
                                                                             Console.Write("Lamar: ");
                                                                             Console.ResetColor();
                                                                             Console.WriteLine("„Chope! No vidíš, kámo, konečně jsme ho našli! ");
-                                                                            Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - ANO / 2 - NE]");
+                                                                            Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - Ano / 2 - NE]");
                                                                             int volbaChop9 = Convert.ToInt32(Console.ReadLine());
                                                                             switch (volbaChop9)
                                                                             {
@@ -2545,7 +2645,7 @@ if (vyberZacatekZbrane == "ano")
                                                                             Console.Write("Lamar: ");
                                                                             Console.ResetColor();
                                                                             Console.WriteLine("„Chope! No vidíš, kámo, konečně jsme ho našli! ");
-                                                                            Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - ANO / 2 - NE]");
+                                                                            Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - Ano / 2 - NE]");
                                                                             int volbaChop10 = Convert.ToInt32(Console.ReadLine());
                                                                             switch (volbaChop10)
                                                                             {
@@ -2576,9 +2676,58 @@ if (vyberZacatekZbrane == "ano")
                                                                     switch (volbaChop11)
                                                                     {
                                                                         case 1:
-
+                                                                            Console.ForegroundColor = ConsoleColor.DarkRed;
+                                                                            Console.Write("Lamar: ");
+                                                                            Console.ResetColor();
+                                                                            Console.WriteLine("„Fajn, trefný výběr! Tihle týpci se vrhnou jako blázni. Jdeme na to, já kryju!“");
+                                                                            Thread.Sleep(2000);
+                                                                            Console.Write("Lamar: ");
+                                                                            Console.ResetColor();
+                                                                            Console.WriteLine("„Chope! No vidíš, kámo, konečně jsme ho našli! ");
+                                                                            Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - Ano / 2 - Ne]");
+                                                                            int volbaChop10 = Convert.ToInt32(Console.ReadLine());
+                                                                            switch (volbaChop10)
+                                                                            {
+                                                                                case 1:
+                                                                                    Console.ForegroundColor = ConsoleColor.DarkRed;
+                                                                                    Console.Write("Lamar: ");
+                                                                                    Console.ResetColor();
+                                                                                    Console.WriteLine("„To je ono, negře! Chop je doma, díky tobě. Víš co? Dlužím ti službičku... a nějaký ty chechtáky.“");
+                                                                                    break;
+                                                                                case 2:
+                                                                                    Console.ForegroundColor = ConsoleColor.DarkRed;
+                                                                                    Console.Write("Lamar: ");
+                                                                                    Console.ResetColor();
+                                                                                    Console.WriteLine("„Kámo musíme utíkat, není čas na výmluvy. Chop je doma, díky tobě. Víš co? Dlužím ti službičku... a nějaký ty chechtáky.“");
+                                                                                    break;
+                                                                            }
                                                                             break;
                                                                         case 2:
+                                                                            Console.ForegroundColor = ConsoleColor.DarkRed;
+                                                                            Console.Write("Lamar: ");
+                                                                            Console.ResetColor();
+                                                                            Console.WriteLine("„Fajn, trefný výběr! Tihle týpci se vrhnou jako blázni. Jdeme na to, já kryju!“");
+                                                                            Thread.Sleep(2000);
+                                                                            Console.Write("Lamar: ");
+                                                                            Console.ResetColor();
+                                                                            Console.WriteLine("„Chope! No vidíš, kámo, konečně jsme ho našli! ");
+                                                                            Console.WriteLine("A teď rychle pryč, než si nás všimne víc poskoků. Utíkáme hned?“ [1 - Ano / 2 - Ne]");
+                                                                            int volbaChop22 = Convert.ToInt32(Console.ReadLine());
+                                                                            switch (volbaChop22)
+                                                                            {
+                                                                                case 1:
+                                                                                    Console.ForegroundColor = ConsoleColor.DarkRed;
+                                                                                    Console.Write("Lamar: ");
+                                                                                    Console.ResetColor();
+                                                                                    Console.WriteLine("„To je ono, negře! Chop je doma, díky tobě. Víš co? Dlužím ti službičku... a nějaký ty chechtáky.“");
+                                                                                    break;
+                                                                                case 2:
+                                                                                    Console.ForegroundColor = ConsoleColor.DarkRed;
+                                                                                    Console.Write("Lamar: ");
+                                                                                    Console.ResetColor();
+                                                                                    Console.WriteLine("„Kámo musíme utíkat, není čas na výmluvy. Chop je doma, díky tobě. Víš co? Dlužím ti službičku... a nějaký ty chechtáky.“");
+                                                                                    break;
+                                                                            }
                                                                             break;
                                                                         default:
                                                                             Console.WriteLine("Zadal jsi špatnou možnost, zkus to znova");
