@@ -1,5 +1,7 @@
 using System;
 
+Console.Title = "Ghetto Truce Alliance";
+
 Console.WriteLine("Chceš jít na PC nebo XBOX servery.");
 string server = Console.ReadLine().ToLower();
 if (server == "xbox")
