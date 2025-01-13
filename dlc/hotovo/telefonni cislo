@@ -1,0 +1,5 @@
+else if (vyber == "737523849")
+    {
+            Console.WriteLine("Našel jsi číslo od ondraDeveloper");
+            Console.WriteLine("Muzes brnknout");
+    }
